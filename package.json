@@ -1,6 +1,6 @@
 {
   "name": "pr-labels-checker",
-  "version": "2.0.0",
+  "version": "3.3.0",
   "description": "Github Action to check if a PR's labels pass the specified rules",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielchabr/pr-has-one-of-labels.git"
+    "url": "git+https://github.com/HENNGE/pr-labels-checker.git"
   },
   "keywords": [
     "actions",
@@ -17,15 +17,15 @@
     "check",
     "status"
   ],
-  "author": "Daniel Chabr",
+  "author": "HENNGE",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danielchabr/pr-has-one-of-labels/issues"
+    "url": "https://github.com/HENNGE/pr-labels-checker"
   },
-  "homepage": "https://github.com/danielchabr/pr-has-one-of-labels#readme",
+  "homepage": "https://github.com/HENNGE/pr-labels-checker",
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0"
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.38.3"

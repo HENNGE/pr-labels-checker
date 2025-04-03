@@ -25,7 +25,7 @@ async function run() {
 
     const failMessages = []
 
-    const { data: labelsOnIssue } = await octokit.issues.listLabelsOnIssue({
+    const { data: labelsOnIssue } = await octokit.rest.issues.listLabelsOnIssue({
       ...context.repo,
       issue_number: context.payload.pull_request.number
     })
