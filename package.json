@@ -4,7 +4,8 @@
   "description": "Github Action to check if a PR's labels pass the specified rules",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "jest:coverage": "jest --coverage",
     "build": "npx ncc build index.js --license LICENSE"
   },
   "repository": {
@@ -28,6 +29,7 @@
     "@actions/github": "^6.0.0"
   },
   "devDependencies": {
-    "@vercel/ncc": "^0.38.3"
+    "@vercel/ncc": "^0.38.3",
+    "jest": "^29.7.0"
   }
 }
